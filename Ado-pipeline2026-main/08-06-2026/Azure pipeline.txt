@@ -1,0 +1,10 @@
+Azure pipeline:-
+
+Project -->> Azure Pipelines -->> Create Pipeline -->> click on classic pipeline-->> 
+
+Select a source --->> Select your Team project-->> Select your repository (Azure repo/ GitHub repo) --->> branch -->> continue -->>
+Empty job-- >>
+
+down to the Task option on left side --->> right hand side we can edit project name as per your desire --->> choose agent pool by drop down-->> 
+
+left side agent job1 --->> "+" option --->>> add task -->> PowerShell/cli/azure/cmd -->>save and queue -->> save and run-->>now pipeline will execute.

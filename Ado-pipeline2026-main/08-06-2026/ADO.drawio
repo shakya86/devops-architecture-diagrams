@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="bSYEuagGyTQH9U5murai">
+    <mxGraphModel dx="2983" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jsyFnkRoImRanlDBiiCM-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="ADO (AZURE DEVOPS ORGANIZATION)" vertex="1">
+          <mxGeometry height="60" width="330" x="330" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;step 1&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;Required Azure access_owner acess&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="415" x="305" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;step 2&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;Login ADO_aex.dev.azure.com&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="415" x="305" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;step 3&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;Create organization&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="415" x="305" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;step 4&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;Create Project&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="415" x="305" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;step 5&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;We must have terraform code _RG&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="415" x="305" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;step 6&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;Having repository for code (Azure/Git repo)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="415" x="305" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;step 7&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;create Agent&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="415" x="305" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;step 8&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;Create service connection like Azure_SVC&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="415" x="305" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;step 9&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;Execute pipeline&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="415" x="305" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-12" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="100" width="85" x="685" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-13" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="100" width="85" x="685" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-14" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="100" width="85" x="700" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-15" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="100" width="85" x="710" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-16" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="100" width="85" x="690" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-17" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;project setting in project --&amp;gt;&amp;gt;Agent Pools ---&amp;gt;&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="250" x="720" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-19" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="100" width="85" x="670" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="jsyFnkRoImRanlDBiiCM-20" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="100" width="85" x="685" y="690" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

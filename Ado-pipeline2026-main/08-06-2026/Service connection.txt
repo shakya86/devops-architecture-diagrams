@@ -1,0 +1,31 @@
+Service connection : Azure to ADO communication _Azure_svc
+
+New service connection --> project setting--> create service connection--> select ARM(Azure resource manager).
+
+we choose recommended (work identity federation) --> service connection name(svc) 
+"svc2" --> grant access -->> Save.
+
+how to give contributor access _Service connection.
+
+Go to Azure portal and search App registration: 
+
+parvgupta0701-Terraform_Landingzone-fa56dea3-251e-446f-9f9e-9ca8d66856a8
+
+Search subscription -->> access control manager (IAM) -->>on top add will reflect --> add role assignment --->> Privileged administrator roles -->> select Contributor -->> select member -->> paste app registration name (parvgupta0701-Terraform_Landingzone-fa56dea3-251e-446f-9f9e-9ca8d66856a8) -->>Select -->> select -- >Review + assign -->>
+
+----------------------
+How to give owner access to azure user 
+1. go to azure portal
+2. search subscription 
+3. select IAM
+4. Add role assignment 
+5. select owner 
+6. select owner
+7. Select members
+8. Allow user to assign all roles except privileged administrator roles Owner, UAA, RBAC (Recommended) 
+9. Review and Assign
+-----------------------------
+
+
+
+
